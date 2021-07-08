@@ -1,5 +1,9 @@
 ## This example uses official jenkins docker image.
 
+### Prerequisites
+- docker
+- Make
+
 Run the command:
 ```make run```
 
