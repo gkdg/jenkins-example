@@ -12,10 +12,10 @@ Check the logs of the conainer to find the initial password:
 ```docker logs <container_id>```
 
 There are three credentials scope.
-1.Global scope
-2.System scope
+1. Global scope
+2. System scope
 > Only available on jenkins server not for jenkins job.
-3.Project scope
+3. Project scope
 > Only comes with multi-pipeline branch option and secrets are naturally has project scope)
 
 If you wanna build only a particular branch go to on console 
