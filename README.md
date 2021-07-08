@@ -19,7 +19,7 @@ Check the logs of the container to find the initial password:
 docker logs <container_id>
 ```
 
-Connect to localhost on port 8080 in order to reach Jenkins UI.
+Connect to localhost on port 8080 in order to reach Jenkins UI and enter initial password.
 
 There are three credentials scope. According to projects need you may define one of them or all of them for different use.
 
