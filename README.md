@@ -10,12 +10,15 @@ Find the container id:
 docker ps
 ```
 
-Check the logs of the conainer to find the initial password:
+Check the logs of the container to find the initial password:
 ```
 docker logs <container_id>
 ```
 
-There are three credentials scope.
+Connect to localhost on port 8080 in order to reach Jenkins UI.
+
+There are three credentials scope. According to projects need you may define one of them or all of them for different use.
+
 1. Global scope
 2. System scope
 > Only available on jenkins server not for jenkins job.
